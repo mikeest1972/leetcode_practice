@@ -4,7 +4,7 @@ class Solution:
         longest = ""
 
         for i in range(len(s)):
-            for j in range(i, len(s)):
+            for j in range(i+1, len(s)+1):
                 if self.isPalindrome(s[i:j]) and len(longest) < len(s[i:j]):
                     longest = s[i:j]
         return longest

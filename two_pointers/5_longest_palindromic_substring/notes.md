@@ -36,5 +36,7 @@ for
         isPalindrome(sub)
         save the largest 
 
+the brute force aproach is too slow it exceedsthe time limit
+
 
 
